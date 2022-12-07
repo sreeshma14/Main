@@ -26,6 +26,24 @@
       color: #ffffff;
       font-size: 13px;
     }
+    .btn1:hover{
+      background-color: white;
+      color: #5e068a;
+      border: #5e068a 2px solid;
+    }
+    .btn2,.btn1{
+     color:  white;
+      background-color:  #5e068a;
+      border:2px solid #5e068a ;
+    }
+   .btn2:hover {
+    filter: brightness(150%);
+    color:  white;
+      background-color:  #5e068a;
+      border:2px solid #5e068a ;
+}
+
+    
     select{
     width: 100%;
     height: 35px;
@@ -47,7 +65,7 @@
     border-width: 0 0 1px;
     resize: none;
     }
-    input[type=submit] {
+    input[type=submit] { 
     max-width: 200px;
     background-color: #5e068a;
     color: #fff;
@@ -77,10 +95,18 @@
 </head>
 
 <body>
-  <div class="header_top" style="height:35px; background-color:#5e068a;">
+  <!-- <div class="header_top" style="height:35px; background-color:#5e068a;">
     <span class="ms-5"> Have any question? +91 8086 651 651</span>
     <span style="margin-left:50% ;"> +91 8086 651 651 contact@luminartechnolab.com</span>
-  </div>
+  </div> -->
+  <div class="row" style="background-color:#5e068a;">
+    <div class="col-lg-7 col-md-6 col-12 text-white ">
+        <div style="text-align:center" ;> Have any question? +91 8086 651 651</div>
+    </div>
+    <div class="col-lg-5 col-md-6 col-12 text-white ">
+        <p class="ms-5" style="text-align:center";>+91 8086 651 651 contact@luminartechnolab.com</p>
+    </div>
+</div>
   <nav class="navbar navbar-expand-lg bg-light">
     <!-- fixed-top , sticky-top -->
     <div class="container ">
@@ -114,8 +140,7 @@
           </li>
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item ms-5">
-              <button type="button" class="btn text-white" style="background-color:#5e068a; ;" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
+              <button type="button" class="btn text-white" style="background-color: rgb(70, 8, 70);" data-bs-toggle="modal"data-bs-target="#exampleModal">
                 Start Learning
               </button>
             </li>
@@ -128,11 +153,11 @@
       <div class="carousel-item active">
         <img id="k" src="./images/l1.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block " style="text-align:start ;">
-          <h5 style="font-size : 3em; ">Kerala's No.1 IT Finishing School 100% Placement Assistance</h5>
+          <h5 style="font-size :3em; ">Kerala's No.1 IT Finishing School 100% Placement Assistance</h5>
           <p class="fs-6 p-5 ps-0">We at LUMINAR TECHNOLAB offers best software training and placement in emerging
             technologies
             like BIG DATA, Data Science, Machine Learning PYTHON, Software Testing.</p>
-          <button  type="button" class="btn text-white rounded-pill  fs-5 hum" style="background-color: rgb(70, 8, 70);">View Courses</button>
+          <button  type="button" class="btn text-white rounded-pill  fs-5 btn2" >View Courses</button>
 
         </div>
       </div>
@@ -203,7 +228,21 @@
       </div>
     </div>
   </div>
+<!-- grid -->
+<div class="container">
+  <div class="row"  style="margin-top:50px ;">
+    <div class="col-lg-7 col-12 p-4 mt-6" >
+      <h2 class="fw-bold" style="color: #5e068a;   font-family: 'Mulish', sans-serif ;" > Luminar Technolab Pvt Ltd</h2>
+      <p class="fw-normal" style="color: #763b9499;   font-family: 'Mulish', sans-serif;">CIN: U80220KL2021PTC071578</p>
+       <p class="align-text-bottom" style="  font-family: 'Mulish', sans-serif;"> Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced level software training to Students and by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our specialized courses.</p>
+       <div><button type="button" class="btn rounded-pill  fs-5 m1 btn1">Learn More</butto></div>
 
+      </div>
+    <div class="col-lg-5 col-12  mt-6">
+      <img src="./images/qq.jpg" alt="">
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
