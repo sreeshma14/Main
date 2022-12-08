@@ -21,3 +21,33 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+  .box{
+    border: 1px solid #ccc;
+    background: #fff;
+    transition: .5s ease;
+  }
+  .box:hover{
+    box-shadow:  5px 4px 8px 4px rgba(0, 0, 0, 0.50);
+    transition: .5s ease;
+  }
+.card{
+border-radius: 0px;
+border: none;
+}
+h5.mb{
+  font-size: 50px;
+}
+p.mu{
+  font-size:20px;
+  padding:10px;
+  padding-bottom: 0;
+}
+@media(max-width:100px){
+  h5.mb{
+   font-size:15px;
+  }
+  p.mu{
+  font-size:7px;
+}
+}
+

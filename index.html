@@ -14,97 +14,134 @@
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/140a123aeb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./lum.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Allura&family=BhuTuka+Expanded+One&family=Changa:wght@200&family=Cookie&family=Enriqueta&family=IM+Fell+English+SC&family=Irish+Grover&family=Mulish:wght@500&family=Rubik+Glitch&family=Square+Peg&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Allura&family=BhuTuka+Expanded+One&family=Changa:wght@200&family=Cookie&family=Enriqueta&family=IM+Fell+English+SC&family=Irish+Grover&family=Mukta:wght@500&family=Mulish:wght@500&family=Raleway:wght@300&family=Rubik+Glitch&family=Square+Peg&display=swap"
+    rel="stylesheet">
   <style>
+ 
+    #jk {
+      width: 100%;
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+   #mn{
+    width: 100%;
+   }
+    h3 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      padding-top: 0;
+      color: #5e068a;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
     #k {
       height: 500px;
       filter: brightness(50%);
     }
 
-    .header_top {
-      padding: 7px 0 0px 0;
-      color: #ffffff;
-      font-size: 13px;
-    }
-    .btn1:hover{
+    .btn1:hover {
       background-color: white;
       color: #5e068a;
       border: #5e068a 2px solid;
     }
-    .btn2,.btn1{
-     color:  white;
-      background-color:  #5e068a;
-      border:2px solid #5e068a ;
-    }
-   .btn2:hover {
-    filter: brightness(150%);
-    color:  white;
-      background-color:  #5e068a;
-      border:2px solid #5e068a ;
-}
 
-    
-    select{
-    width: 100%;
-    height: 35px;
-    border: 1px solid #88888845;
-    margin: 0px 0 15px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    .btn2,
+    .btn1 {
+      color: white;
+      background-color: #5e068a;
+      border: 2px solid #5e068a;
     }
-    textarea{
+
+    .btn2:hover {
+      filter: brightness(150%);
+      color: white;
+      background-color: #5e068a;
+      border: 2px solid #5e068a;
+    }
+    .btn3{
+      color: #5e068a;
+      background-color: white;
+      border: 2px solid #5e068a;
+    }
+    .btn3:hover{
+      color: white;
+      background-color: #5e068a;
+      border: 2px solid #5e068a;
+    }
+    select {
+      width: 100%;
+      height: 35px;
+      border: 1px solid #88888845;
+      margin: 0px 0 15px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+
+    textarea {
       background: transparent;
-    border-bottom: 1px solid #70707045;
-    padding: 0 5px 10px;
-    color: #aaaaaa;
-    margin-bottom: 25px;
-    height: 120px;
-    width: 100%;
-    font-size: 14px;
-    border-width: 0 0 1px;
-    resize: none;
+      border-bottom: 1px solid #70707045;
+      padding: 0 5px 10px;
+      color: #aaaaaa;
+      margin-bottom: 25px;
+      height: 120px;
+      width: 100%;
+      font-size: 14px;
+      border-width: 0 0 1px;
+      resize: none;
     }
-    input[type=submit] { 
-    max-width: 200px;
-    background-color: #5e068a;
-    color: #fff;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 10px 0;
-    line-height: 28px;
-  
+
+    input[type=submit] {
+      max-width: 200px;
+      background-color: #5e068a;
+      color: #fff;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 10px 0;
+      line-height: 28px;
+
     }
-    input{
+
+    input {
       background: transparent;
-    border-bottom: 1px solid #70707038;
-    padding-left: 5px;
-    font-size: 14px;
-    width: 100%;
-    box-shadow: none;
-    border-radius: 0;
-    border-width: 0 0 1px;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    font-family: 'Mulish', sans-serif;
+      border-bottom: 1px solid #70707038;
+      padding-left: 5px;
+      font-size: 14px;
+      width: 100%;
+      box-shadow: none;
+      border-radius: 0;
+      border-width: 0 0 1px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      font-family: 'Mulish', sans-serif;
     }
-    option{
-     font-family: 'Mulish', sans-serif;
+
+    option {
+      font-family: 'Mulish', sans-serif;
     }
   </style>
 </head>
 
-<body>
-<!-- start Learning -->
+<body style="background-color:#f5f5f5 ;">
+  <!-- start Learning -->
   <div class="row" style="background-color:#5e068a;">
     <div class="col-lg-7 col-md-6 col-12 text-white ">
-        <div style="text-align:center" ;> Have any question? +91 8086 651 651</div>
+      <div style="text-align:center" ;> Have any question? +91 8086 651 651</div>
     </div>
     <div class="col-lg-5 col-md-6 col-12 text-white ">
-        <p style="text-align:center";>+91 8086 651 651 contact@luminartechnolab.com</p>
+      <p style="text-align:center" ;>+91 8086 651 651 contact@luminartechnolab.com</p>
     </div>
-</div>
-<!-- navbar -->
+  </div>
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-light sticky-top">
     <!-- fixed-top , sticky-top -->
     <div class="container ">
@@ -138,7 +175,8 @@
           </li>
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item ms-5">
-              <button type="button" class="btn text-white" style="background-color: rgb(70, 8, 70);" data-bs-toggle="modal"data-bs-target="#exampleModal">
+              <button type="button" class="btn btn1"  data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
                 Start Learning
               </button>
             </li>
@@ -152,21 +190,22 @@
       <div class="carousel-item active data-bs-interval=500 ">
         <img id="k" src="./images/l1.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block " style="text-align:start ;">
-          <h5 style="font-size :3em; ">Kerala's No.1 IT Finishing School 100% Placement Assistance</h5>
-          <p class="fs-6 p-5 ps-0">We at LUMINAR TECHNOLAB offers best software training and placement in emerging
+          <h5 class="mb">Kerala's No.1 IT Finishing School 100% Placement Assistance</h5>
+          <p class="mu">We at LUMINAR TECHNOLAB offers best software training and placement in emerging
             technologies
             like BIG DATA, Data Science, Machine Learning PYTHON, Software Testing.</p>
-          <button  type="button" class="btn text-white rounded-pill  fs-5 btn2" >View Courses</button>
+          <button type="button" class="btn text-white rounded-pill  fs-5 btn2">View Courses</button>
 
         </div>
       </div>
       <div class="carousel-item data-bs-interval=500">
         <img id="k" src="./images/l2.jpeg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block" style="text-align:start ;">
-          <h5 style="font-size: 3em; ">Data Science, ML & AI Big Data - Hadoop & Spark Python Data Science</h5>
-          <p class="fs-6 p-4 ps-0">We LUMINAR TECHNOLAB offers best software training and placement in emerging
+          <h5 class="mb">Data Science, ML & AI Big Data - Hadoop & Spark Python Data Science
+          </h5>
+          <p class="mu">We LUMINAR TECHNOLAB offers best software training and placement in emerging
             technologies like Big Data, Hadoop, Spark, Data Scince, Machine Learning, Deep Learning and Al.</p>
-            <button  type="button" class="btn text-white rounded-pill  fs-5 btn2" >View Courses</button>
+          <button type="button" class="btn text-white rounded-pill  fs-5 btn2">View Courses</button>
         </div>
       </div>
     </div>
@@ -183,8 +222,8 @@
 
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-    <div class="modal-dialog " >
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
       <div class="modal-content">
         <div style="border-radius: 0px;">
           <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
@@ -193,24 +232,24 @@
         <div class="modal-body">
           <h4 style="text-align:center ;   font-family: 'Mulish', sans-serif;">Get Training Quote for free</h4>
           <form action="" class="container-fluid" style="font-size: small;">
-            <div >
+            <div>
               <input type="text" placeholder="Name">
-      
+
             </div>
-            <div >
-              <input type="email"  placeholder="Email">
-          
+            <div>
+              <input type="email" placeholder="Email">
+
             </div>
             <div>
               <input type="text" placeholder="Phone Number">
-          
+
             </div>
-            <div >
-              <input type="text"  placeholder="City">
-        
+            <div>
+              <input type="text" placeholder="City">
+
             </div>
             <select name="" id="">
-              <option style="font-family: 'Mulish', sans-serif;"value="">Select Course interested in</option>
+              <option style="font-family: 'Mulish', sans-serif;" value="">Select Course interested in</option>
               <option value="">MEA(R)N Stack Web Development Expert - Angular & React</option>
               <option value="">Software Testing Specialist</option>
               <option value="">Data Science - ML - AI - Big Data with Cloud & TABLEAU</option>
@@ -220,27 +259,102 @@
             <div>
               <textarea name="message" placeholder="comments"></textarea>
             </div>
-            <input type="submit" class="border border-0"  name="submit" placeholder="submit">
+            <input type="submit" class="border border-0" name="submit" placeholder="submit">
           </form>
         </div>
       </div>
     </div>
   </div>
-<!-- grid -->
-<div class="container">
-  <div class="row"  style="margin-top:50px ;">
-    <div class="col-lg-7 col-12 p-4 mt-6" >
-      <h2 class="fw-bold" style="color: #5e068a;   font-family: 'Mulish', sans-serif ;" > Luminar Technolab Pvt Ltd</h2>
-      <p class="fw-normal" style="color: #763b9499;   font-family: 'Mulish', sans-serif;">CIN: U80220KL2021PTC071578</p>
-       <p class="align-text-bottom" style="  font-family: 'Mulish', sans-serif;"> Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced level software training to Students and by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our specialized courses.</p>
-       <div><button type="button" class="btn rounded-pill  fs-5 m1 btn1">Learn More</butto></div>
+  <!-- grid -->
+  <div class="container w-75">
+    <div class="row" style="margin-top:50px ;">
+      <div class="col-lg-7 col-md-7 col-12 p-4 mt-6">
+        <h2 class="fw-bold" style="color: #5e068a;   font-family: 'Mulish', sans-serif ;"> Luminar Technolab Pvt Ltd
+        </h2>
+        <p class="fw-normal" style="color: #763b9499;   font-family: 'Mulish', sans-serif;">CIN: U80220KL2021PTC071578
+        </p>
+        <p class="align-text-bottom" style="  font-family: 'Mulish', sans-serif;"> Luminar Technolab is an IT Finishing
+          School located near Infopark - Cochin, focused on providing advanced level software training to Students and
+          by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT
+          sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science
+          Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin,
+          Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide
+          100% placements to students those who enroll with us for our specialized courses.</p>
+        <div><button type="button" class="btn rounded-pill  fs-5 m1 btn1">Learn More</butto>
+        </div>
 
       </div>
-    <div class="col-lg-5 col-12  mt-6">
-      <img src="./images/qq.jpg" alt="">
+      <div class="col-lg-5 col-12  mt-6">
+        <img src="./images/qq.jpg" alt="">
+      </div>
     </div>
   </div>
+  <!-- grid2 -->
+  <div class="container w-75" style="margin-top:70px ;">
+    <h3>Our <span style="color: #9e6ab9;"> Courses</span></h3>
+    <div class="row box bg-light" style="margin-top:50px ;">
+      <div class="col-lg-6 col-md-6 col-12  ">
+        <img id="jk" src="./images/grid2.jpg" alt="">
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 p-5 pb-0">
+        <h5 class="fw-bold" style="color: #5e068a;   font-family: 'Mukta', sans-serif;"> DATA SCIENCE - ML - AI - BIG
+          DATA WITH CLOUD & TABLEAU </h5>
+        <p class="fw-normal" style=" font-family: 'Raleway', sans-serif;">Python, Hadoop, Spark, Data Analytics, Linear
+          Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial
+          Intelligence, Tableau, AWS Cloud.</p>
+        <p class="fw-normal" style=" font-family: 'Raleway', sans-serif;">📅 Next Batch : Jan 03rd 2022 (09:30 am -
+          11:30 am)</p>
+        <p class="fw-normal" style="font-family: 'Raleway', sans-serif;"> ⏰ Duration: 6 Months, 5-6 Days a Week, 2-3
+          Hours/day </p>
+        <p class="fw-normal" style=" font-family: 'Raleway', sans-serif;"> 🧑‍🏫 Course Fees: <a style="color: #5e068a"
+            ; href="">view more</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- cards -->
+  <div class="container w-70">
+    <div class="row" style="margin-top:50px ; margin-left: 65px;">
+
+        <div class="card box col-lg-4 col-md-4 col-12 ms-5 mb-3" style="width: 18rem; ">
+            <img id="mn" src="./images/python-1588143191.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Python Django - Angular- Full Stack Web Development Expert</h5>
+                <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django
+                    Framework, REST API, Git, Angul...</p>
+                <a href="#" class="btn text-white" style="background-color: #5e068a;border-radius: 0px;">View
+                    more</a>
+
+            </div>
+        </div>
+        <div class="card box col-lg-4 col-md-4 col-12 ms-5 mb-3" style="width: 18rem;">
+            <img id="mn" src="./images/st-1588580359.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style=" height: 255px;">
+                <h5 class="card-title">Software Testing Specialist</h5>
+                <p class="card-text">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web
+                    driver, Selenium Advanced Web...</p>
+                <a href="#" class="btn text-white" style="background-color: #5e068a;border-radius: 0px;">View
+                    more</a>
+            </div>
+
+        </div>
+
+        <div class="card box col-lg-4 col-md-4 col-12 ms-5 mb-3" style="width: 18rem; ">
+            <img id="mn" src="./images/ms-1623825586.jpg" class="card-img-top" alt="...">
+            <div class="card-body " style=" height: 255px;">
+                <h5 class="card-title">MEARN Stack Web Development Expert - Angular & React</h5>
+                <p class="card-text">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS,
+                    Angular, React.js and Node....</p>
+                <a href="#" class="btn text-white" style="background-color: #5e068a;border-radius: 0px;">View
+                    more</a>
+
+            </div>
+        </div>
+    </div>
 </div>
+<div class="col-md-12 text-center" style="margin-top:50px ;">
+    <button type="button" class="btn rounded-pill  fs-6 m1 btn3">View all Courses</butto>
+</div>
+
 </body>
 
 </html>

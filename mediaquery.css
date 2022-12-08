@@ -1,0 +1,30 @@
+div{
+    width: 500px;
+    background-color: black;
+    color:white;
+}
+p{
+    font-size: x-large;
+}
+/* media  */
+@media(max-width:400px) {
+    div
+    {background-color: red;}
+   p{
+    font-size: small;
+   }
+
+}
+@media(min-width:800px) and (min-width:1000px)
+{
+    div{
+        background-color: aqua;
+
+    }
+    p{
+             font-size: xx-large;
+    }
+    span{
+        display: none;
+    }
+}
