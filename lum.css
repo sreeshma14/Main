@@ -53,7 +53,7 @@
   
  }
 }
-@media (min-width:800px) and (max-width:1500px)
+@media (min-width:800px) and (max-width:3500px)
 {
   .q1{
   font-size :50px;
@@ -67,16 +67,16 @@
 
 
 .carousel-caption h5 {
-  animation: moveUp 1s ease 0s 1;
+  animation: anime 1s ease 0s 1;
 }
 .carousel-caption p {
-  animation: moveUp 1.2s ease 0s 1;
+  animation: anime 1.2s ease 0s 1;
 }
 .carousel-caption button {
-  animation: moveUp 1.5s ease 0s 1;
+  animation: anime 1.5s ease 0s 1;
 }
 
-@keyframes moveUp {
+@keyframes anime {
   0% {
     transform: translateY(100px);
   }}
