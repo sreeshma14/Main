@@ -52,6 +52,10 @@
     margin: 5px;
   
  }
+ .hjk{
+  padding: 10px 24px;
+  
+ }
 }
 @media (min-width:800px) and (max-width:7500px)
 {
